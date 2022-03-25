@@ -4,7 +4,7 @@ This is a Rust library to parse links, formatted as [Emacs Org-mode hyperlinks](
 
 ## Example usage:
 
-```
+```rust
 use emacs_org_link_parser as org;
 
 fn main() {
@@ -16,6 +16,6 @@ fn main() {
 }
 ```
 Expected output:
-```
+```rust
 [Link { link: Some("#mycookbook"), description: Some("page 3") }, Link { link: Some("www.best-sauce.com"), description: Some("sauce here: number 4") }, Link { link: Some("#pictures"), description: Some("how it looks") }, Link { link: Some("forum.com"), description: None }]
 ```
